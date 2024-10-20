@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./sample.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+     
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    
+</head>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="#" class="logo d-flex align-items-center me-auto">
+        
+       
+        <h1 class="sitename">Arsha</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Better Solutions For Your Business</h1>
+            <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="./hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <section id="clients" class="clients section light-background">
+          <div class="swiper-wrapper align-items-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </section>  
+    
+      
+      
+    
+  
+  
+
+    <!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <div class="why-us">
+      <div class="why-us1">
+        <div class="why-head">Eum ipsam laborum deleniti <b>velit pariatur architecto aut nihil</b></div>
+        <div class="why-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</div>
+        
+
+          <div class="accordion col-lg-12" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item" id="accordionitem">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                 <b>01</b>  Non consectetur a erat nam at lectus urna duis?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="accordionitem">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  <b>02</b>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="accordionitem">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                 <b>03  </b>Dolor sit amet consectetur adipiscing elit pellentesque?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="why-us2">
+        <img src="./assets/img/why-us.png" alt="">
+      </div>
+    </div>
+
+    <!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <div id="skills">
+      <img src="https://bootstrapmade.com/content/demo/Arsha/assets/img/skills.png">
+      <div id="skill">
+        <div id="skillhead">Voluptatem dignissimos provident quasi corporis voluptas</div>
+        <div id="skillsub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        <div id="top1">
+          <span>HTML</span>
+          <i class="val1">100%</i>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 100%"></div>
+        </div>
+        <div id="top2">
+          <span>CSS</span>
+          <i class="val2">90%</i>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 90%"></div>
+        </div>
+        <div id="top">
+          <span>JAVASCRIPT</span>
+          <i class="val">75%</i>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 75%"></div>
+        </div>
+        <div id="top">
+          <span>PHOTOSHOP</span>
+          <i class="val">55%</i>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 55%"></div>
+        </div>
+      </div>
+  </div>
+    <!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Call To Action</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- portfolio -->
+    <div class="portfolio">
+      <div id="p11">
+        <h2>PORTFOLIO</h2>
+      </div>
+      <div id="p12">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</div>
+      <div class="buttons">
+        <button class="btn btn-primary">All</button>
+        <button class="btn">App</button>
+        <button class="btn">Card</button>
+        <button class="btn">Web</button>
+      </div>
+    </div>
+    <div class="cards-port">
+      <div id="port1">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg">
+      </div>
+      <div id="port2">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" id="p21">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" id="p22">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" id="p23">
+      </div>
+      <div id="port3">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" id="p31">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" id="p31">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" id="p31">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" id="p31">
+  
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Business Plan</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Developer Plan</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+<!-- testimonial -->
+<div class="testimonials">
+  <h2>TESTIMONIALS</h2>
+  <P>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</P>
+  <div id="carouselExampleAutoplaying" class="carousel slide text-center" data-bs-ride="carousel"
+    data-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/testimonials/testimonials-1.jpg">
+        <div id="im-head">Saul Goodman</div>
+        <div id="im-head1">Ceo & Founder</div>
+        <img
+          src="data:image/png;base64,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">
+        <div id="im-text">
+          <div id="cama">"</div>Proin iaculis purus consequat sem cure digni ssim donec porttitor entum suscipit
+          rhoncus.
+          Accusantium quam,ultricies eget id,aliquam eget nibh et.Maecen aliquam,risus at semper.<div id="cama">,,
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/testimonials/testimonials-2.jpg">
+        <div id="im-head">Sara Wilsson</div>
+        <div id="im-head1">Designer</div>
+        <img
+          src="data:image/png;base64,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">
+        <div id="im-text">
+          <div id="cama">"</div>
+          Export tempor illum tamen malis malis eram quae irure quem cillum quid cillum eram mails quorum velit fore
+          eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<div id="cama">,,</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/testimonials/testimonials-3.jpg">
+        <div id="im-head">Saul Goodman</div>
+        <div id="im-head1">Ceo & Founder</div>
+        <img
+          src="data:image/png;base64,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">
+        <div id="im-text">
+          <div id="cama">"</div>Proin iaculis purus consequat sem cure digni ssim donec porttitor entum suscipit
+          rhoncus.
+          Accusantium quam,ultricies eget id,aliquam eget nibh et.Maecen aliquam,risus at semper.<div id="cama">,,
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/testimonials/testimonials-4.jpg">
+        <div id="im-head">Saul Goodman</div>
+        <div id="im-head1">Ceo & Founder</div>
+        <img
+          src="data:image/png;base64,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">
+        <div id="im-text">
+          <div id="cama">"</div>Proin iaculis purus consequat sem cure digni ssim donec porttitor entum suscipit
+          rhoncus.
+          Accusantium quam,ultricies eget id,aliquam eget nibh et.Maecen aliquam,risus at semper.<div id="cama">,,
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+                <div class="faq-content">
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section --> 
+      <section id="contact" class="contact section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+
+              <img src="map.PNG" alt="map" id="map">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div> 
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Arsha</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+
+
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</html>
